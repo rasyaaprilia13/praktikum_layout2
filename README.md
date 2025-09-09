@@ -35,5 +35,4 @@ penjelasan :
 dokumentasi : 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b4b33947-ef4d-459a-9fae-2c03c0840656" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c831d38b-c293-47a7-a9d9-b06cb3ec3ea9" />
-
 penjelasan : bagian appbar akan menampilkan nama item dan bagian body menampilkan detail item
