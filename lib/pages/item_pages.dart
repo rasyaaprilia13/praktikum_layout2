@@ -6,26 +6,51 @@ class ItemPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Item item = ModalRoute.of(context)!.settings.arguments as Item;
+    final item = ModalRoute.of(context)!.settings.arguments as Item;
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(item.name),
-        backgroundColor: Colors.blue,
-        foregroundColor: Colors.white,
-      ),
-      body: Center(
+      appBar: AppBar(title: Text(item.name)),
+      body: SingleChildScrollView(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              item.name,
-              style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+            Hero(
+              tag: 'itemPhoto${item.name}',
+              child: Image.asset(
+              item.image,
+              width: double.infinity,
+              fit: BoxFit.contain,
             ),
-            const SizedBox(height: 16),
-            Text(
-              "Price: ${item.price}",
-              style: const TextStyle(fontSize: 22),
+
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    item.name,
+                    style: Theme.of(context).textTheme.headlineSmall,
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    "Harga: Rp ${item.price}",
+                    style: Theme.of(context).textTheme.titleLarge,
+                  ),
+                  const SizedBox(height: 8),
+                  Row(
+                    children: [
+                      const Icon(Icons.star, color: Colors.amber),
+                      Text(item.rating.toString()),
+                      const SizedBox(width: 16),
+                      Text("Stok: ${item.stock}"),
+                    ],
+                  ),
+                  const SizedBox(height: 16),
+                  const Text(
+                      "Ini adalah deskripsi produk yang menarik. Produk ini sangat berkualitas dan cocok untuk Anda."),
+                ],
+              ),
             ),
           ],
         ),
