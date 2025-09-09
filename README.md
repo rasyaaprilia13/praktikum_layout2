@@ -39,22 +39,28 @@ penjelasan : bagian appbar akan menampilkan nama item dan bagian body menampilka
 
 
 # PRAKTIKUM 2 : Navigator di flutter
-# Langkah 1 : 
+# Langkah 6 : 
 dokumentasi :
 <img width="748" height="959" alt="image" src="https://github.com/user-attachments/assets/30a41eab-a9ea-4e91-a74f-b738acddced0" />
 penjelasan : untuk membuat widget navigasi lebih interaktif untuk beralih dari halaman utama ke detail setiap item
 
-# Langkah 2 :
+# Langkah 7 :
 dokumentasi :
-<img width="746" height="596" alt="image" src="https://github.com/user-attachments/assets/74856077-5555-46bf-bd89-dcf8ad1cd139" />
-penjelasan : data item yang dipilih kemudian diambil kembali menggunakan ModalRoute dengan arguments, lalu ditampilkan lebih lengkap detail item nya seperti nama, harga, stok dll. menggunakan image.assets di itempage
+<img width="741" height="628" alt="image" src="https://github.com/user-attachments/assets/770b4449-5705-48bf-b836-96b7a4021a31" />
+penjelasan : data item yang dipilih kemudian diambil kembali menggunakan ModalRoute dengan arguments, lalu ditampilkan lebih lengkap detail item nya seperti nama, harga, stok dll. menggunakan image.assets di itempage. sekarang itempage dapat mengakses seluruh informasi produk
 
-# Langkah 3 : 
+# Langkah 8 : 
 dokumentasi :
-<img width="739" height="970" alt="image" src="https://github.com/user-attachments/assets/848f011e-edac-4616-935b-b81c57c5f01d" />
-penjelasan : menggunakan hero animation agar gamabr tidak terpotong saat masuk ke detail setiap item dengan menambahkan boxfit.contain di itempage
+<img width="750" height="826" alt="image" src="https://github.com/user-attachments/assets/053c292c-6786-43f1-9f42-def62b265abc" />
+penjelasan : menampilkan detail tampilan informatif dengan deskripsi tiap produk dan footer
 
-# Langkah 4 : menambahkan footer nama dan nim
+# Langkah 9 : 
 dokumentasi :
-<img width="757" height="370" alt="image" src="https://github.com/user-attachments/assets/07b91531-7464-460a-96ec-32101021c4fe" />
-penjelasan : menampilkan footer nama dan nim dibagian bawah aplikasi dengan menambahkan bottonNavigationBar di homepage
+<img width="747" height="732" alt="image" src="https://github.com/user-attachments/assets/cfc8ebaa-2a03-4bcf-90e5-f10b7b4b74fa" />
+penjelasan :  menggunakan hero animation agar gamabr tidak terpotong saat masuk ke detail setiap item dengan menambahkan boxfit.contain di itempage
+
+# Langkah 10 :
+dokumentasi :
+<img width="740" height="215" alt="image" src="https://github.com/user-attachments/assets/6d73bd2c-3b76-4667-a073-bb4ea98dffba" />
+penjelaskan : menambahkan footer nama dan nim dibagian bawah aplikasi dengan menambahkan bottomNavigationBar di homepage
+
