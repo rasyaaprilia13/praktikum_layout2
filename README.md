@@ -51,12 +51,12 @@ penjelasan : data item yang dipilih kemudian diambil kembali menggunakan ModalRo
 
 # Langkah 8 : 
 dokumentasi :
-<img width="750" height="826" alt="image" src="https://github.com/user-attachments/assets/053c292c-6786-43f1-9f42-def62b265abc" />
+<img width="747" height="732" alt="image" src="https://github.com/user-attachments/assets/cfc8ebaa-2a03-4bcf-90e5-f10b7b4b74fa" />
 penjelasan : menampilkan detail tampilan informatif dengan deskripsi tiap produk dan footer
 
 # Langkah 9 : 
 dokumentasi :
-<img width="747" height="732" alt="image" src="https://github.com/user-attachments/assets/cfc8ebaa-2a03-4bcf-90e5-f10b7b4b74fa" />
+<img width="750" height="826" alt="image" src="https://github.com/user-attachments/assets/053c292c-6786-43f1-9f42-def62b265abc" />
 penjelasan :  menggunakan hero animation agar gamabr tidak terpotong saat masuk ke detail setiap item dengan menambahkan boxfit.contain di itempage
 
 # Langkah 10 :
