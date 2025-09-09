@@ -40,4 +40,21 @@ penjelasan : bagian appbar akan menampilkan nama item dan bagian body menampilka
 
 # PRAKTIKUM 2 : Navigator di flutter
 # Langkah 1 : 
-penjelasan : untuk membuat widget
+dokumentasi :
+<img width="748" height="959" alt="image" src="https://github.com/user-attachments/assets/30a41eab-a9ea-4e91-a74f-b738acddced0" />
+penjelasan : untuk membuat widget navigasi lebih interaktif untuk beralih dari halaman utama ke detail setiap item
+
+# Langkah 2 :
+dokumentasi :
+<img width="746" height="596" alt="image" src="https://github.com/user-attachments/assets/74856077-5555-46bf-bd89-dcf8ad1cd139" />
+penjelasan : data item yang dipilih kemudian diambil kembali menggunakan ModalRoute dengan arguments, lalu ditampilkan lebih lengkap detail item nya seperti nama, harga, stok dll. menggunakan image.assets di itempage
+
+# Langkah 3 : 
+dokumentasi :
+<img width="739" height="970" alt="image" src="https://github.com/user-attachments/assets/848f011e-edac-4616-935b-b81c57c5f01d" />
+penjelasan : menggunakan hero animation agar gamabr tidak terpotong saat masuk ke detail setiap item dengan menambahkan boxfit.contain di itempage
+
+# Langkah 4 : menambahkan footer nama dan nim
+dokumentasi :
+<img width="757" height="370" alt="image" src="https://github.com/user-attachments/assets/07b91531-7464-460a-96ec-32101021c4fe" />
+penjelasan : menampilkan footer nama dan nim dibagian bawah aplikasi dengan menambahkan bottonNavigationBar di homepage
